@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ## **Usage**
 
-Run the FCA-C algorithm via the command-line interface:
+Run the FCA-C algorithm via the command-line interface.
 
 ### Example Commands:
 
