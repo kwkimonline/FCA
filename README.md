@@ -13,7 +13,7 @@ Published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 - [Usage](#usage)  
   - [Example Commands](#example-commands)  
   - [Arguments](#arguments)  
-- [Dataset](#dataset)  
+- [Datasets](#datasets)  
 - [License](#license)
 - [Citation](#citation)
 
@@ -73,14 +73,14 @@ python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number 
 | `--iters_inner`        | int     | `1`       | Number of inner iterations per batch (in FCA-C)               |
 | `--K`                  | int     | `-1`      | Number of clusters                                            |
 
-## Dataset
+## Datasets
 
 ```text
 data/
 ├── Adult/
 │   └── adult.data
 ├── Bank/
-│   └── bank-additional-full.csv
+    └── bank-additional-full.csv
 ```
 
 ## License
