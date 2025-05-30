@@ -3,7 +3,6 @@ import time
 
 """ MAIN """
 parser = argparse.ArgumentParser(description='FCA')
-parser.add_argument('--type', default=3, type=int)
 parser.add_argument('--seed', default=2025, type=int)
 parser.add_argument('--iters', default=100, type=int)
 parser.add_argument('--numItermax', default=1000000, type=int)
