@@ -1,6 +1,6 @@
 # FCA
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 Official pytorch implementation of FCA.
 
@@ -13,19 +13,58 @@ The paper was published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 
 ---
 
+## 📑 Table of Contents
+
+- [Installation](#installation)  
+- [Environments](#environments)  
+- [Usage](#usage)  
+  - [Example Commands](#example-commands)  
+  - [Arguments](#arguments)  
+- [Dataset](#dataset)  
+- [License](#license)
+- [Citation](#citation)
+
+---
+
+## Installation
+```bash
+git clone https://github.com/kwkimonline/FCA.git
+# pip
+pip install -r requirements.txt
+
+## Environments
+
+Python>=3.9
+numpy>=2.2.6
+pandas>=2.2.3
+POT>=0.9.5
+Requests>=2.32.3
+scikit_learn>=1.6.1
+scipy>=1.15.3
+torch>=2.0.0
+
 ## **Usage**
 
 To be updated soon.
 
-### Example Command:
+### Example Commands:
 
 To be updated soon.
 
-### Environments
+### Arguments
 
 To be updated soon.
+
+## Dataset
+
+data/
+├── Adult/adult.data
+├── Bank/bank-additional-full.csv
+└── Census/subsampled_census1990.csv
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Citation
-
 
 To be updated soon.
