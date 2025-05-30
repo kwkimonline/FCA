@@ -1,4 +1,4 @@
-# FCA
+# FCA (Fair Clustering via Alignment)
 
 
 This repository contains the official PyTorch implementation of **FCA**, the algorithm proposed in the paper:  
