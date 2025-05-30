@@ -21,12 +21,12 @@ Published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 ---
 
 ## Installation
+
 ```bash
 git clone https://github.com/kwkimonline/FCA.git
-
-```bash
+cd FCA
 pip install -r requirements.txt
-
+```
 
 ## Environments
 
