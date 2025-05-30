@@ -1,4 +1,4 @@
-# FCA (Fair Clustering via Alignment)
+![image](https://github.com/user-attachments/assets/92016ab3-c620-419e-a842-314c43fd5d5b)# FCA (Fair Clustering via Alignment)
 
 
 This repository contains the official PyTorch implementation of **FCA**, the algorithm proposed in the paper:  
@@ -54,10 +54,15 @@ To be updated soon.
 
 ## Dataset
 
+```text
 data/
-├── Adult/adult.data
-├── Bank/bank-additional-full.csv
-└── Census/subsampled_census1990.csv
+├── Adult/
+│   └── adult.data
+├── Bank/
+│   └── bank-additional-full.csv
+└── Census/
+    └── subsampled_census1990.csv
+```
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
