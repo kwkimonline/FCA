@@ -58,20 +58,20 @@ python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number 
 
 | Flag                   | Type    | Default   | Description                                                   |
 |------------------------|---------|-----------|---------------------------------------------------------------|
-| `--seed`               | int     | `2025`    | Random seed for reproducibility                               |
-| `--iters`              | int     | `100`     | Number of outer iterations (epochs)                           |
+| `--seed`               | int     | `2025`    | Random seed                                                   |
+| `--iters`              | int     | `100`     | Number of iterations                                          |
 | `--numItermax`         | int     | `1000000` | Maximum iterations for the OT solver                          |
 | `--numThreads`         | int     | `5`       | Number of threads for the OT solver                           |
-| `--epsilon`            | float   | `0.0`     | Fairness tolerance (upper‐bound on imbalance)                 |
+| `--epsilon`            | float   | `0.0`     | Fairness-controlling hyper-parameter (lower -> fairer)        |
 | `--lr`                 | float   | `0.05`    | Learning rate for gradient‐based center updates               |
-| `--batch_size`         | int     | `1024`    | Mini‐batch size                                               |
+| `--batch_size`         | int     | `1024`    | Mini‐batch size for partitioning technique                    |
 | `--data_name`          | string  | `Adult`   | Name of dataset (must match a subfolder in `data/`)           |
 | `--l2_normalize`       | flag    | (off)     | Apply L2 normalization to input features                      |
 | `--gradient_descent`   | flag    | (off)     | Enable gradient‐based center updates                          |
-| `--use_cuda`           | flag    | (off)     | Move computations to GPU (requires CUDA)                      |
-| `--max_iter`           | int     | `300`     | Maximum iterations for gradient‐based center update           |
-| `--iters_inner`        | int     | `1`       | Number of inner iterations per batch                          |
-| `--K`                  | int     | `-1`      | Number of clusters (overrides dataset default if > 0)         |
+| `--use_cuda`           | flag    | (off)     | # of GPU when using --gradient_descent                        |
+| `--max_iter`           | int     | `300`     | Maximum iterations for center update                          |
+| `--iters_inner`        | int     | `1`       | Number of inner iterations per batch (in FCA-C)               |
+| `--K`                  | int     | `-1`      | Number of clusters                                            |
 
 ## Dataset
 
@@ -84,6 +84,7 @@ data/
 ```
 
 ## License
+This project is licensed under the MIT License.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Citation
