@@ -1,15 +1,9 @@
 # FCA
 
 
-
-Official pytorch implementation of FCA.
-
-
-## **Overview**
-This repository contains the official PyTorch implementation of **FCA (Fair Clustering via Alignment)**, the algorithm proposed in the paper:  
-["Fair Clustering via Alignment"](https://icml.cc/virtual/2025/poster/44309) by *Kunwoong Kim, Jihu Lee, Sangchul Park, and Yongdai Kim.*
-
-The paper was published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
+This repository contains the official PyTorch implementation of **FCA**, the algorithm proposed in the paper:  
+["Fair Clustering via Alignment"](https://icml.cc/virtual/2025/poster/44309) by *Kunwoong Kim, Jihu Lee, Sangchul Park, and Yongdai Kim.*  
+Published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 
 ---
 
@@ -29,19 +23,22 @@ The paper was published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 ## Installation
 ```bash
 git clone https://github.com/kwkimonline/FCA.git
-# pip
+
+```bash
 pip install -r requirements.txt
+
 
 ## Environments
 
-Python>=3.9
-numpy>=2.2.6
-pandas>=2.2.3
-POT>=0.9.5
-Requests>=2.32.3
-scikit_learn>=1.6.1
-scipy>=1.15.3
-torch>=2.0.0
+Python >= 3.9
+numpy >= 2.2.6
+pandas >= 2.2.3
+POT >= 0.9.5
+requests >= 2.32.3
+scikit-learn >= 1.6.1
+scipy >= 1.15.3
+torch >= 2.0.0
+
 
 ## **Usage**
 
