@@ -79,7 +79,7 @@ python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number 
 data/
 ├── Adult/
 │   └── adult.data
-├── Bank/
+└── Bank/
     └── bank-additional-full.csv
 ```
 
