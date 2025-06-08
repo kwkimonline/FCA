@@ -1,6 +1,6 @@
 # FCA (Fair Clustering via Alignment)
 
-This repository contains the official PyTorch implementation of **FCA**, the algorithm proposed in the paper:  
+This repository contains the official implementation of **FCA**, the algorithm proposed in the paper:  
 ["Fair Clustering via Alignment"](https://icml.cc/virtual/2025/poster/44309) by *Kunwoong Kim, Jihu Lee, Sangchul Park, and Yongdai Kim.*  
 Published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 
