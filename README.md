@@ -86,4 +86,13 @@ This project is licensed under the MIT License.
 
 ## Citation
 
-To be updated soon.
+```text
+@inproceedings{
+  kim2025fair,
+  title={Fair Clustering via Alignment},
+  author={Kunwoong Kim and Jihu Lee and Sangchul Park and Yongdai Kim},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=jImlK83NmV}
+}
+```
