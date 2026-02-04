@@ -46,12 +46,10 @@ Run the FCA algorithm via the command-line interface.
 ### Example Commands:
 
 ```bash
-# 1. Perfectly fair clustering on {Adult, Bank} dataset
-python -m src.main --data_name {Adult, Bank} --K {number of clusters} --l2_normalize
-# 2. Relaxed fair clustering (control of fairness level) on the {Adult, Bank} dataset
-python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number of clusters} --l2_normalize
-# 3. Perfectly fair clustering on {Adult, Bank} dataset without L2 normalization of data
-python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number of clusters}
+# 1. Perfectly fair clustering on Adult dataset
+python -m src.main --data_name Adult --K {number of clusters} --l2_normalize
+# 2. Relaxed fair clustering (control of fairness level) on the Adult dataset
+python -m src.main --data_name Adult --epsilon {[0.0, 1.0]} --K {number of clusters} --l2_normalize
 ```
 
 ### Arguments
@@ -79,8 +77,6 @@ python -m src.main --data_name {Adult, Bank} --epsilon {[0.0, 1.0]} --K {number 
 data/
 ├── Adult/
 │   └── adult.data
-└── Bank/
-    └── bank-additional-full.csv
 ```
 
 ## License
