@@ -17,6 +17,14 @@ Published in **[ICML 2025](https://icml.cc/Conferences/2025)**.
 - [License](#license)
 - [Citation](#citation)
 
+
+---
+
+## Updates
+
+- May 30, 2025: The first version released
+- Feb 4, 2026: An updated version released
+
 ---
 
 ## Installation
